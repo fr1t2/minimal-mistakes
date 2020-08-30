@@ -1,0 +1,53 @@
+# main links
+main:
+  - title: "CEP East Livestream"
+    description: "CEP East Livestream"
+    url: /east/
+  - title: "CEP West Livestream"
+    description: "CEP East Livestream"
+    url: /west/
+  - title: "Admin"
+    description: "Configure livestream here"
+    url: /admin/
+  # - title: "About"
+  # url: /about/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #  url: /sitemap/
+
+admin:
+  - title: "CEP Config"
+    children:
+      - title: "West Config"
+        url: http://10.0.0.213:8091
+        description: "CEP West Livestream Configuration"
+      - title: "East Config"
+        url: http://10.0.0.213:8080
+        description: "CEP West Livestream Configuration"
+
+  - title: "CEP Live View"
+    children:
+      - title: "West LiveStream"
+        description: "CEP West LiveStream Viewer"
+        url: http://10.0.0.213:8091/player.html
+      - title: "East LiveStream"
+        url: http://10.0.0.213:8080/player.html
+        description: "CEP West LiveStream Viewer"
+
+  - title: Documentation
+    children:
+      - title: Restreamer Docs
+        url: https://datarhei.github.io/restreamer/docs/
+      - title: Jekyll Docs
+        url: https://jekyllrb.com/docs/
+      - title: Web Theme Docs
+        url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+      - title: ffmpeg Docs
+        url: https://ffmpeg.org/ffmpeg.html
+      - title: Web Project Repo
+        url: https://github.com/fr1t2/site-walk.org
+      - title: Restreamer Repo
+        url: https://github.com/fr1t2/restreamer
+
+
