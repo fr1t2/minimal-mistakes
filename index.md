@@ -2,51 +2,55 @@
 layout: splash
 author_profile: false
 entries_layout: grid
-classes: wide
 
 header:
   overlay_color: "#000"
-  overlay_filter: "0.55"
-  overlay_image: /assets/img/1315.jpg
+  overlay_filter: "0.75"
+  overlay_image: /assets/img/bwCeiling.png
   actions:
-#    - label: "East Livestreams"
-#      url: "/east/"
-#    - label: "Admin Login"
-#      url: "/admin/"
-  caption: "Photo credit: [**EarthCam**](https://public.earthcam.net/CEP.com)"
-excerpt: "Providing connectivity for construction projects post covid-19."
+    - label: "East Livestreams"
+      url: "/east/"
+    - label: "West Livestreams"
+      url: "/west/"
+  caption: "Photo credit: [**CEP**](#)"
+excerpt: "Observing construction progress socially distanced"
 intro: 
 
 
 feature_row:
-  - image_path: /assets/img/1315.jpg
+  - image_path: /assets/img/bwHvac1200.png
     alt: "West Expansion livestream"
     title: "West Expansion livestream"
-    excerpt: 'Livestream events provided by the CEP for colaboration on the West construction projects. This feed will be live based on scheduled activities. For more info reach out to the team.'
+    excerpt: 'Livestream events provided by the CEP for collaboration on the West construction projects.'
     url: "/west/"
     btn_label: "West Livestream"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
 feature_row1:
-  - image_path: /assets/img/untitled-18.jpg
+  - image_path: /assets/img/cccHigh1200.png
     alt: "East Expansion Livestream"
     title: "East Expansion Livestream"
-    excerpt: 'Livestream events provided by the CEP for colaboration on the East construction projects. This feed will be live based on scheduled activities. <br /><br />For more info reach out to the team.'
+    excerpt: 'Livestream events provided by the CEP for collaboration on the East construction projects.'
     url: "/east/"
     btn_label: "East Livestream"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+
 
 ---
 
 {% include feature_row id="intro" type="center" %}
 
+# Connectivity for the Concourse Expansion Program
 
-Use the links below to access the livestreams for the CEP program. 
+This service has been created by the DEN Program Management Team (PMT) in hopes to bridge the gap that COVID-19 has created. The main objective is to raise awareness to those who are not able to make it in person by providing a portal into the job site. 
+
+### _Recordings will only be available for a limited time after event_
+
+
+> This system is in BETA testing, please excuse any technical difficulties you may face and report any funny business to [issues@site-walk.org](mailto:issues@site-walk.org)
 
 ---
+
 
 {% include feature_row id="feature_row" type="left"%}
 
 {% include feature_row id="feature_row1" type="right" %}
-
-> All streams are restricted. For access, request a password from the team. Please reach out to James Gordon, or [email me here](mailto:james@site-walk.org)
-
