@@ -1,6 +1,6 @@
 ---
 title: "CCA West Livestream"
-permalink: /ccawest-main/
+permalink: /aw-main/
 layout: splash
 entries_layout: grid
 classes: wide

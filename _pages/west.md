@@ -10,7 +10,7 @@ header:
   caption: "Photo credit: [**CEP**](#)"
 
 gallery:
-  - url: /ccawest-main/
+  - url: /aw-main/
     image_path: /assets/img/ccaStream1200.png
     alt: "CCA West Stream"
     title: "CCA West"
