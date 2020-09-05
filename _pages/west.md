@@ -9,13 +9,32 @@ header:
   overlay_image: /assets/img/ccbWestBuilding1200.png
   caption: "Photo credit: [**CEP**](#)"
 
+
+feature_row:
+  - image_path: /assets/img/ccaStream1200.png
+    alt: "CCA West Expansion livestreams"
+    title: "West Expansion livestreams"
+    excerpt: 'Livestream events for Concourse A-West construction.'
+    url: "/ccaw/"
+    btn_label: "CCB West Livestreams"
+    btn_class: "btn--info"
+feature_row1:
+  - image_path: /assets/img/ccbStream1200.png
+    alt: "CCB West Expansion livestreams"
+    title: "West Expansion livestreams"
+    excerpt: 'Livestream events for Concourse B-West construction.'
+    url: "/ccbw/"
+    btn_label: "CCB West Livestreams"
+    btn_class: "btn--info"
+
+
 gallery:
   - url: /aw-main/
     image_path: https://site-walk.org/ccawest-main/images/live.jpg
     onerror: /assets/img/ccaStream1200.png
     alt: "CCA West Stream"
     title: "CCA West"
-  - url: /west/
+  - url: /bw-west/
     image_path: https://site-walk.org/ccbwest-main/images/live.jpg
     onerror: /assets/img/ccbStreams1200.png 
     alt: "CCB West Stream"

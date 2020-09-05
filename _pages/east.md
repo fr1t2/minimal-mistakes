@@ -30,7 +30,7 @@ The feeds below are only active during an event. Click on the link to view teh s
 
 ---
 title: "East CEP Livestream"
-permalink: /west/
+permalink: /east/
 layout: splash
 entries_layout: grid
 
