@@ -12,51 +12,51 @@ header:
 
 
 feature_row:
-  - image_path: /ccawest-main/images/live.jpg
+  - image_path: /ccbwest-main/images/live.jpg
     alt: "CCA West Main Livestream"
-    title: "AWest Main livestream"
+    title: "BWest Main livestream"
     excerpt: ''
-    url: "/ccawest-main/player.html"
-    btn_label: "CCA West Main"
+    url: "/ccbwest-main/player.html"
+    btn_label: "CCB West Main"
     btn_class: "btn--info"
     actions:
       - label: "Watch"
-        url: "/ccawest-main/player.html"
+        url: "/ccbwest-main/player.html"
         btn_class: "btn--info btn-large"
       - label: "configure stream"
-        url: "/ccawest-main/"
+        url: "/ccbwest-main/"
         btn_class: "btn--danger"
 
 feature_row1:
-  - image_path: /ccawest-cx/images/live.jpg
-    alt: "CCA West CX Livestream"
-    title: "AWest CX livestream"
+  - image_path: /ccbwest-cx/images/live.jpg
+    alt: "CCB West CX Livestream"
+    title: "BWest CX livestream"
     excerpt: ''
-    url: "/ccawest-cx/player.html"
-    btn_label: "CCA West CX"
+    url: "/ccbwest-cx/player.html"
+    btn_label: "CCB West CX"
     btn_class: "btn--info"
     actions:
       - label: "Watch"
-        url: "/ccawest-cx/player.html"
+        url: "/ccbwest-cx/player.html"
         btn_class: "btn--info btn-large"
       - label: "configure stream"
-        url: "/ccawest-cx/"
+        url: "/ccbwest-cx/"
         btn_class: "btn--danger"
 
 feature_row2:
-  - image_path: /ccawest-cell/images/live.jpg
-    alt: "CCA West Issue Livestream"
-    title: "AWest Issue livestream"
+  - image_path: /ccbwest-cell/images/live.jpg
+    alt: "CCB West Issue Livestream"
+    title: "BWest Issue livestream"
     excerpt: ''
-    url: "/ccawest-cell/player.html"
-    btn_label: "CCA West Issue"
+    url: "/ccbwest-cell/player.html"
+    btn_label: "CCB West Issue"
     btn_class: "btn--info"
     actions:
       - label: "Watch"
-        url: "/ccawest-cell/player.html"
+        url: "/ccbwest-cell/player.html"
         btn_class: "btn--info btn-large"
       - label: "configure stream"
-        url: "/ccawest-cell/"
+        url: "/ccbwest-cell/"
         btn_class: "btn--danger"
 
 ---
