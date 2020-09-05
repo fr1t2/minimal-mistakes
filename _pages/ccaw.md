@@ -1,5 +1,5 @@
 ---
-title: "West CEP Livestream"
+title: "AWest CEP Livestream"
 permalink: /ccaw/
 layout: splash
 entries_layout: grid
@@ -8,7 +8,7 @@ author_profile: false
 classes: wide
 header:
   overlay_image: /assets/img/logo1.png
-  caption: "Photo credit: [**CEP**](#)"
+  
 
 
 feature_row:
@@ -16,12 +16,12 @@ feature_row:
     alt: "CCA West Main Livestream"
     title: "AWest Main livestream"
     excerpt: ''
-    url: "/ccawest-main/player.html"
+    url: "/aw-main/"
     btn_label: "CCA West Main"
     btn_class: "btn--info"
     actions:
       - label: "Watch"
-        url: "/ccawest-main/player.html"
+        url: "/aw-main/"
         btn_class: "btn--info btn-large"
       - label: "configure stream"
         url: "/ccawest-main/"
@@ -32,12 +32,12 @@ feature_row1:
     alt: "CCA West CX Livestream"
     title: "AWest CX livestream"
     excerpt: ''
-    url: "/ccawest-cx/player.html"
+    url: "/aw-cx/"
     btn_label: "CCA West CX"
     btn_class: "btn--info"
     actions:
       - label: "Watch"
-        url: "/ccawest-cx/player.html"
+        url: "/aw-cx/"
         btn_class: "btn--info btn-large"
       - label: "configure stream"
         url: "/ccawest-cx/"
