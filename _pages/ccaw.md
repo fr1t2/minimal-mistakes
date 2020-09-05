@@ -1,6 +1,6 @@
 ---
 title: "West CEP Livestream"
-permalink: /west/
+permalink: /ccaw/
 layout: splash
 entries_layout: grid
 author_profile: false
