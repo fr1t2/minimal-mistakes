@@ -26,7 +26,8 @@
       </a>
     {% else %}
       <img src="{{ img.image_path | relative_url }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+           onerror="{% if img.onerror %}{{ img.onerror }}{% endif %}">
     {% endif %}
   {% endfor %}
   {% if include.caption %}

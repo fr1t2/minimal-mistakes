@@ -11,11 +11,13 @@ header:
 
 gallery:
   - url: /aw-main/
-    image_path: /assets/img/ccaStream1200.png
+    image_path: https://site-walk.org/ccawest-main/images/live.jpg
+    onerror: /assets/img/ccaStream1200.png
     alt: "CCA West Stream"
     title: "CCA West"
   - url: /west/
-    image_path: /assets/img/ccbStreams1200.png 
+    image_path: https://site-walk.org/ccbwest-main/images/live.jpg
+    onerror: /assets/img/ccbStreams1200.png 
     alt: "CCB West Stream"
     title: "CCB West"
 
