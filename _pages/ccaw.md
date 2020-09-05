@@ -14,37 +14,50 @@ header:
 feature_row:
   - image_path: /ccawest-main/images/live.jpg
     alt: "CCA West Main Livestream"
-    title: "CCA West Expansion livestreams"
-    excerpt: 'View live recordings from site-walks for the **Concourse A West** construction project.'
+    title: "AWest Main livestreams"
+    excerpt: ''
     url: "/ccawest-main/player.html"
     btn_label: "CCA West Main"
     btn_class: "btn--info"
     actions:
+      - label: "Watch"
+        url: "/ccawest-main/player.html"
+        btn_class: "btn--info btn-large"
       - label: "configure stream"
         url: "/ccawest-main/"
-        btn_class: "btn--info"
+        btn_class: "btn--danger"
 
 feature_row1:
-  - image_path: /assets/img/bricks.png
-    alt: "CCB West Expansion livestreams"
-    title: "CCB West Expansion livestreams"
-    excerpt: 'View live recordings from site-walks for the **Concourse B West** construction project.'
-    url: "/ccbw/"
-    btn_label: "CCB West Events"
+  - image_path: /ccawest-cx/images/live.jpg
+    alt: "CCA West CX Livestream"
+    title: "AWest CX livestreams"
+    excerpt: ''
+    url: "/ccawest-cx/player.html"
+    btn_label: "CCA West CX"
     btn_class: "btn--info"
     actions:
-      - label: "BW Main"
-        url: "/bw-main/"
-        btn_class: "btn--warning "
-      - label: "BW CX"
-        url: "/bw-cx/"
-        btn_class: "btn--warning"
-      - label: "BW Issue"
-        url: "/aw-issue/"
-        btn_class: "btn--warning"
-      - label: "Overview"
-        url: "/ccbw/"
-        btn_class: "btn--info"
+      - label: "Watch"
+        url: "/ccawest-cx/player.html"
+        btn_class: "btn--info btn-large"
+      - label: "configure stream"
+        url: "/ccawest-cx/"
+        btn_class: "btn--danger"
+
+feature_row2:
+  - image_path: /ccawest-cell/images/live.jpg
+    alt: "CCA West Issue Livestream"
+    title: "AWest Issue livestreams"
+    excerpt: ''
+    url: "/ccawest-cell/player.html"
+    btn_label: "CCA West Issue"
+    btn_class: "btn--info"
+    actions:
+      - label: "Watch"
+        url: "/ccawest-cell/player.html"
+        btn_class: "btn--info btn-large"
+      - label: "configure stream"
+        url: "/ccawest-cell/"
+        btn_class: "btn--danger"
 
 ---
 
@@ -53,6 +66,8 @@ feature_row1:
 {% include feature_row id="feature_row" type="left" %}
 
 {% include feature_row id="feature_row1" type="right" %}
+
+{% include feature_row id="feature_row2" type="left" %}
 
 
 > The use of this system does not alleviate any parties responsibility for conformity and in no way replaces the contractual obligations set fourth elsewhere. These are provided for convenience only
