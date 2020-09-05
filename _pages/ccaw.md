@@ -14,7 +14,7 @@ header:
 feature_row:
   - image_path: /ccawest-main/images/live.jpg
     alt: "CCA West Main Livestream"
-    title: "AWest Main livestreams"
+    title: "AWest Main livestream"
     excerpt: ''
     url: "/ccawest-main/player.html"
     btn_label: "CCA West Main"
@@ -30,7 +30,7 @@ feature_row:
 feature_row1:
   - image_path: /ccawest-cx/images/live.jpg
     alt: "CCA West CX Livestream"
-    title: "AWest CX livestreams"
+    title: "AWest CX livestream"
     excerpt: ''
     url: "/ccawest-cx/player.html"
     btn_label: "CCA West CX"
@@ -46,7 +46,7 @@ feature_row1:
 feature_row2:
   - image_path: /ccawest-cell/images/live.jpg
     alt: "CCA West Issue Livestream"
-    title: "AWest Issue livestreams"
+    title: "AWest Issue livestream"
     excerpt: ''
     url: "/ccawest-cell/player.html"
     btn_label: "CCA West Issue"
