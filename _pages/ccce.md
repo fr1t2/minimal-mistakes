@@ -14,7 +14,7 @@ header:
 feature_row:
   - image_path: /ccceast-main/images/live.jpg
     alt: "CCC East Main Livestream"
-    title: "BEast Main livestream"
+    title: "CEast Main livestream"
     excerpt: ''
     url: "/ce-main/"
     btn_label: "CCC East Main"
@@ -30,7 +30,7 @@ feature_row:
 feature_row1:
   - image_path: /ccceast-cx/images/live.jpg
     alt: "CCC East CX Livestream"
-    title: "BEast CX livestream"
+    title: "CEast CX livestream"
     excerpt: ''
     url: "/ce-cx/"
     btn_label: "CCC East CX"
@@ -46,7 +46,7 @@ feature_row1:
 feature_row2:
   - image_path: /ccceast-cell/images/live.jpg
     alt: "CCC East Issue Livestream"
-    title: "BEast Issue livestream"
+    title: "CEast Issue livestream"
     excerpt: ''
     url: "/ce-cell/"
     btn_label: "CCC East Issue"

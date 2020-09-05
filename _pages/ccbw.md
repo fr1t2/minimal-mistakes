@@ -1,6 +1,6 @@
 ---
 title: "CCB West CEP Livestream"
-permalink: /ccaw/
+permalink: /ccbw/
 layout: splash
 entries_layout: grid
 author_profile: false

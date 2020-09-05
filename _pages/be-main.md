@@ -1,14 +1,14 @@
 ---
 title: "CCB East Main"
-permalink: /aw-cx/
+permalink: /be-main/
 layout: splash
 entries_layout: grid
 classes: wide
 
 ---
 
-# CCA West CX Livestream
+# CCB East Main Livestream
 
-{% include video id="ccawest-cx" provider="restreamer" %}
+{% include video id="ccbeast-main" provider="restreamer" %}
 
 > All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your interested in.
