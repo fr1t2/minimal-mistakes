@@ -2,6 +2,7 @@
 layout: splash
 author_profile: false
 entries_layout: grid
+title: "Site Walk"
 
 header:
   overlay_color: "#000"
@@ -14,7 +15,6 @@ header:
       url: "/east/"
   caption: "Photo credit: [**CEP**](#)"
 excerpt: "Observing construction progress socially distanced"
-intro: 
 
 
 feature_row:
