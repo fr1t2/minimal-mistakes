@@ -1,6 +1,6 @@
 ---
-title: "CCB West Cell"
-permalink: /bw-cell/
+title: "CCA West Issue"
+permalink: /aw-issue/
 layout: splash
 entries_layout: grid
 classes: wide

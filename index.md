@@ -8,14 +8,10 @@ header:
   overlay_filter: "0.75"
   overlay_image: /assets/img/bwCeiling.png
   actions:
-    - label: "CCA West"
-      url: "/ccaw/"
-    - label: "CCB West"
-      url: "/ccbw/"
-    - label: "CCB East"
-      url: "/ccbe/"
-    - label: "CCC East"
-      url: "/ccce/"
+    - label: "West Projects"
+      url: "/west/"
+    - label: "East Projects"
+      url: "/east/"
   caption: "Photo credit: [**CEP**](#)"
 excerpt: "Observing construction progress socially distanced"
 intro: 

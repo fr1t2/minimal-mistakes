@@ -15,20 +15,20 @@ feature_row:
   - image_path: /assets/img/ccaStream1200.png
     alt: "CCA West Expansion livestreams"
     title: "CCA West Expansion livestreams"
-    excerpt: 'View live recordings from site-walks for the **Concourse A** construction project. Check back for a listing of previously recorded site-walk observations.'
+    excerpt: 'View live recordings from site-walks for the **Concourse A** construction project.'
     url: "/ccaw/"
     btn_label: "CCA West Events"
-    btn_class: "btn--warning btn--large"
+    btn_class: "btn--info"
     actions:
       - label: "AW Main"
         url: "/aw-main/"
-        btn_class: "btn--info-outline btn--small"
+        btn_class: "btn--warning "
       - label: "AW CX"
         url: "/aw-cx/"
-        btn_class: "btn--info-outline btn--small"
-      - label: "AW Cell"
-        url: "/aw-cell/"
-        btn_class: "btn--info-outline btn--small"
+        btn_class: "btn--warning"
+      - label: "AW Issue"
+        url: "/aw-issue/"
+        btn_class: "btn--warning"
 
 feature_row1:
   - image_path: /assets/img/ccbStreams1200.png
@@ -38,6 +38,16 @@ feature_row1:
     url: "/ccbw/"
     btn_label: "CCB West Events"
     btn_class: "btn--info"
+    actions:
+      - label: "BW Main"
+        url: "/bw-main/"
+        btn_class: "btn--warning "
+      - label: "BW CX"
+        url: "/bw-cx/"
+        btn_class: "btn--warning"
+      - label: "BW Issue"
+        url: "/aw-issue/"
+        btn_class: "btn--warning"
 
 
 gallery:
