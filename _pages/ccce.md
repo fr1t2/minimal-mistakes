@@ -12,7 +12,7 @@ header:
 
 
 feature_row:
-  - image_path: /ccceast-main/images/live.jpg
+  - image_path: https://site-walk.org/ccceast-main/images/live.jpg
     alt: "CCC East Main Livestream"
     title: "CEast Main livestream"
     excerpt: ''
@@ -28,7 +28,7 @@ feature_row:
         btn_class: "btn--danger"
 
 feature_row1:
-  - image_path: /ccceast-cx/images/live.jpg
+  - image_path: https://site-walk.org/ccceast-cx/images/live.jpg
     alt: "CCC East CX Livestream"
     title: "CEast CX livestream"
     excerpt: ''
@@ -44,7 +44,7 @@ feature_row1:
         btn_class: "btn--danger"
 
 feature_row2:
-  - image_path: /ccceast-cell/images/live.jpg
+  - image_path: https://site-walk.org/ccceast-cell/images/live.jpg
     alt: "CCC East Issue Livestream"
     title: "CEast Issue livestream"
     excerpt: ''
