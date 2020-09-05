@@ -1,21 +1,8 @@
 # main links
 main:
-  - title: "CEP East Livestream"
-    description: "CEP East Livestream"
-    url: /east/
-  - title: "CEP West Livestream"
-    description: "CEP East Livestream"
-    url: /west/
   - title: "Admin"
     description: "Configure livestream here"
     url: /admin/
-    children:
-      - title: "West Config"
-        url: http://10.0.0.213:8091
-        description: "CEP West Livestream Configuration"
-      - title: "East Config"
-        url: http://10.0.0.213:8080
-        description: "CEP West Livestream Configuration"
 
 admin:
   - title: "CEP Config"
