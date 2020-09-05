@@ -7,15 +7,15 @@ author_profile: false
 
 classes: wide
 header:
-  overlay_image: /assets/img/ccbWestBuilding1200.png
+  overlay_image: /assets/img/logo1.png
   caption: "Photo credit: [**CEP**](#)"
 
 
 feature_row:
-  - image_path: /assets/img/ccaStream1200.png
+  - image_path: /assets/img/crane.png
     alt: "CCA West Expansion livestreams"
     title: "CCA West Expansion livestreams"
-    excerpt: 'View live recordings from site-walks for the **Concourse A** construction project.'
+    excerpt: 'View live recordings from site-walks for the **Concourse A West** construction project.'
     url: "/ccaw/"
     btn_label: "CCA West Events"
     btn_class: "btn--info"
@@ -34,10 +34,10 @@ feature_row:
         btn_class: "btn--warning"
 
 feature_row1:
-  - image_path: /assets/img/ccbStreams1200.png
+  - image_path: /assets/img/bricks.png
     alt: "CCB West Expansion livestreams"
-    title: "West Expansion livestreams"
-    excerpt: 'View live recordings from site-walks for the **Concourse B** construction project. Check back for a listing of previously recorded site-walk observations.'
+    title: "CCB West Expansion livestreams"
+    excerpt: 'View live recordings from site-walks for the **Concourse B West** construction project.'
     url: "/ccbw/"
     btn_label: "CCB West Events"
     btn_class: "btn--info"
@@ -64,7 +64,7 @@ feature_row1:
 {% include feature_row id="feature_row1" type="right" %}
 
 
-The use of this system does not alleviate any parties responsibility for conformity and in no way replaces the contractual obligations set fourth elsewhere. These are provided for convenience only
+> The use of this system does not alleviate any parties responsibility for conformity and in no way replaces the contractual obligations set fourth elsewhere. These are provided for convenience only
 
 
 
