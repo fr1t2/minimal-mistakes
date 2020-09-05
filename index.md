@@ -9,48 +9,37 @@ header:
   overlay_filter: "0.75"
   overlay_image: /assets/img/bwCeiling.png
   actions:
-    - label: "West Projects"
+    - label: "CEP West Projects"
       url: "/west/"
-    - label: "East Projects"
+    - label: "CEP East Projects"
       url: "/east/"
   caption: "Photo credit: [**CEP**](#)"
-excerpt: "Observing construction progress socially distanced"
-
-
-feature_row:
-  - image_path: /assets/img/bwHvac1200.png
-    alt: "West Expansion livestream"
-    title: "West Expansion livestream"
-    excerpt: 'Livestream events provided by the CEP for collaboration on the West construction projects.'
-    url: "/west/"
-    btn_label: "West Livestream"
-    btn_class: "btn--info"
-feature_row1:
-  - image_path: /assets/img/cccHigh1200.png
-    alt: "East Expansion Livestream"
-    title: "East Expansion Livestream"
-    excerpt: 'Livestream events provided by the CEP for collaboration on the East construction projects.'
-    url: "/east/"
-    btn_label: "East Livestream"
-    btn_class: "btn--info"
-
+excerpt: "Observing construction progress remotely"
 
 ---
 
-{% include feature_row id="intro" type="center" %}
 
-# Connectivity for the Concourse Expansion Program
+# Connectivity for the New Normal
 
-This service has been created by the DEN Program Management Team (PMT) in hopes to bridge the gap that COVID-19 has created. The main objective is to raise awareness to those who are not able to make it in person by providing a portal into the job site. 
+[Site-Walk.org](https://site-walk.org) was created to bridge the gap COVID-19 has created for the construction management industry as a whole. 
 
-### _Recordings will only be available for a limited time after event_
+Success of any project depends on the ability of experts to *observe site conditions* and see the overall progress while it is happening. This important function has been severely limited due to the current pandemic.
 
+### Technology to the rescue!
+
+Through the use of clever technology and innovation we can still deliver a quality product while following safe practices like social distancing. 
+
+* h264 Streaming Hardware providing connection from the site
+* Quality video equipment for stable livestreams
+* Streaming software and connectivity allowing multiple "Work From Home" users to join
+
+By bridging this into an existing platform like **Zoom** or **MS Teams** we can take an entire meeting on-site to discuss any feature of work needed!
 
 > This system is in BETA testing, please excuse any technical difficulties you may face and report any funny business to [issues@site-walk.org](mailto:issues@site-walk.org)
 
----
+## Concourse Expansion
+
+The first trial of this service is for the Concourse Expansion Program Denver International Airport is undergoing. 
 
 
-{% include feature_row id="feature_row" type="left"%}
 
-{% include feature_row id="feature_row1" type="right" %}

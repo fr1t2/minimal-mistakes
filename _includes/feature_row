@@ -32,9 +32,6 @@
             </div>
           {% endif %}
 
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
 
         {% for action in f.actions %}
           <a href="{{ action.url | relative_url }}" class="btn {{ action.btn_class }}">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>

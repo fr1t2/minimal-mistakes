@@ -20,6 +20,9 @@ feature_row:
     btn_label: "CCA West Events"
     btn_class: "btn--info"
     actions:
+      - label: "Overview"
+        url: "/ccaw/"
+        btn_class: "btn--info"
       - label: "AW Main"
         url: "/aw-main/"
         btn_class: "btn--warning "
@@ -48,31 +51,21 @@ feature_row1:
       - label: "BW Issue"
         url: "/aw-issue/"
         btn_class: "btn--warning"
-
-
-gallery:
-  - url: /aw-main/
-    image_path: https://site-walk.org/ccawest-main/images/live.jpg
-    onerror: /assets/img/ccaStream1200.png
-    alt: "CCA West Stream"
-    title: "CCA West"
-  - url: /bw-west/
-    image_path: https://site-walk.org/ccbwest-main/images/live.jpg
-    onerror: /assets/img/ccbStreams1200.png 
-    alt: "CCB West Stream"
-    title: "CCB West"
+      - label: "Overview"
+        url: "/ccbw/"
+        btn_class: "btn--info"
 
 ---
 
-These are provided on an as-scheduled basis. If the stream is not playing you may need to contact the host who invited you for details.
+> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your interested in.
 
 {% include feature_row id="feature_row" type="left" %}
+
 {% include feature_row id="feature_row1" type="right" %}
 
 
 The use of this system does not alleviate any parties responsibility for conformity and in no way replaces the contractual obligations set fourth elsewhere. These are provided for convenience only
 
-> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your interested in.
 
 
 
