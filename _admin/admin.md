@@ -95,7 +95,7 @@ Streams can be managed below through the links to the [Restreamer server](https:
 Each stream uses a seprate port to communicate with the video signal stream. Use the configuration details from below to connect the camera system to the server to stream.
 
 
-{% include gallery caption="Images shown here are the last captured image from the previous stream." %}
+{% include iframe caption="Images shown here are the last captured image from the previous stream." %}
 
 ---
 
