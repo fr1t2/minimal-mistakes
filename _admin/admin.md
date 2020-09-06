@@ -74,16 +74,15 @@ iframe:
 Streams can be managed below through the links to the [Restreamer server](https://github.com/datarhei/restreamer). New streams cannot be created here, for that you must contact the [admin](mailto:james@site-walk.org) 
 
 > You must ensure that the stream is started and is listening. 
+> If you see the *(Error: Your stream wasn't accessible. .... Operation not permitted)*
 
-*(Error: Your stream wasn't accessible. .... Operation not permitted)*
+
+{% include iframe caption="Images shown here are the last captured image from the previous stream." %}
 
 ## Setup
 
 
 Each stream uses a seprate port to communicate with the video signal stream. Use the configuration details from below to connect the camera system to the server to stream.
-
-
-{% include iframe caption="Images shown here are the last captured image from the previous stream." %}
 
 ---
 
