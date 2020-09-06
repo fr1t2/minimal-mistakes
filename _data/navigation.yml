@@ -44,17 +44,6 @@ admin:
         url: /ccceast-cell/
         description: "CCC East Issue Feed Config"
 
-
-
-  - title: "CEP Live View"
-    children:
-      - title: "West LiveStream"
-        description: "CEP West LiveStream Viewer"
-        url: http://10.0.0.213:8091/player.html
-      - title: "East LiveStream"
-        url: http://10.0.0.213:8080/player.html
-        description: "CEP West LiveStream Viewer"
-
   - title: Documentation
     children:
       - title: Restreamer Docs
