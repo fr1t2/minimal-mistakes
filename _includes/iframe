@@ -19,7 +19,7 @@
 <figure class="{{ galery_layout }} {{ include.class }}">
   {% for src in iframe %}
     {% if src.url %}
-      <iframe src="{{ src.url | relative_url }}" name="restreamer-player" width="{{ src.width }}" height="{{ src.height }}" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+      <iframe src="{{ src.url | relative_url }}" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
     {% else %}
       <img src="{{ src.image_path | relative_url }}"
            alt="{% if src.alt %}{{ src.alt }}{% endif %}">
