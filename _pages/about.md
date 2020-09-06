@@ -16,6 +16,17 @@ Construction is inherently difficult to coordinate. Between design teams, engine
 These services work well for getting people together, however when we all need to see the installation on-site we hit a wall. Either the connections are poor from the site, or the service will not allow direct streaming that is quality.
 
 
-##
+## Technology
 
-The team is using a few tools to facilitate this system. The most difficult part of the stream from a remote location is the connectivity. Additionally the added benefit of having the entire team on the same page, as if they were all onsite.
+The team is using a few tools to facilitate this system. The most difficult part of the stream from a remote location is the connectivity. Additionally the added benefit of having the entire team on the same page, as if they were all on site.
+
+* h.264 Streaming Hardware providing connection from the site
+* Quality video equipment for stable livestreams
+* Streaming software and connectivity allowing multiple "Work From Home" users to join
+
+By bridging this into an existing platform like **Zoom** or **MS Teams** we can take an entire meeting on-site to discuss any feature of work needed!
+
+
+## Concourse Expansion
+
+The first trial of this service is for the Concourse Expansion Program Denver International Airport is undergoing. 

@@ -25,21 +25,15 @@ excerpt: "Observing construction progress remotely"
 
 Success of any project depends on the ability of experts to *observe site conditions* and see the overall progress while it is happening. This important function has been severely limited due to the current pandemic.
 
-### Technology to the rescue!
+### Technology to the Rescue!
 
 Through the use of clever technology and innovation we can still deliver a quality product while following safe practices like social distancing. 
 
-* h264 Streaming Hardware providing connection from the site
-* Quality video equipment for stable livestreams
-* Streaming software and connectivity allowing multiple "Work From Home" users to join
 
-By bridging this into an existing platform like **Zoom** or **MS Teams** we can take an entire meeting on-site to discuss any feature of work needed!
+# <ins> Use the links above to access the livestreams </ins>
 
 > This system is in BETA testing, please excuse any technical difficulties you may face and report any funny business to [issues@site-walk.org](mailto:issues@site-walk.org)
 
-## Concourse Expansion
-
-The first trial of this service is for the Concourse Expansion Program Denver International Airport is undergoing. 
 
 
 
