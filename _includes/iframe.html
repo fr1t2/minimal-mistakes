@@ -1,0 +1,31 @@
+{% if include.id %}
+  {% assign iframe = page[include.id] %}
+{% else %}
+  {% assign iframe = page.iframe %}
+{% endif %}
+
+{% if include.layout %}
+  {% assign iframe_layout = include.layout %}
+{% else %}
+  {% if iframe.size == 2 %}
+    {% assign iframe_layout = 'half' %}
+  {% elsif iframe.size >= 3 %}
+    {% assign iframe_layout = 'third' %}
+  {% else %}
+    {% assign iframe_layout = '' %}
+  {% endif %}
+{% endif %}
+
+<figure class="{{ galery_layout }} {{ include.class }}">
+  {% for src in iframe %}
+    {% if src.url %}
+      <iframe src="{{ src.url | relative_url }}" name="restreamer-player" width="{{ src.width }}" height="{{ src.height }}" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+    {% else %}
+      <img src="{{ src.image_path | relative_url }}"
+           alt="{% if src.alt %}{{ src.alt }}{% endif %}">
+    {% endif %}
+  {% endfor %}
+  {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+</figure>
