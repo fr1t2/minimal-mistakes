@@ -5,49 +5,44 @@ main:
     url: /admin/
 
 admin:
-  - title: "CEP Config"
+  - title: "Stream Config"
     children:
-      - title: "West Config"
-        children:
-          - title: CCA West Main
-            url: /ccawest-main/
-            description: "CCA West Main Feed Config"
-          - title: CCA West CX
-            url: /ccawest-cx/
-            description: "CCA West CX Feed Config"
-          - title: CCA West Issue
-            url: /ccawest-cell/
-            description: "CCA West Issue Feed Config"
-
-          - title: CCB West Main
-            url: /ccbwest-main/
-            description: "CCB West Main Feed Config"
-          - title: CCB West CX
-            url: /ccbwest-cx/
-            description: "CCB West CX Feed Config"
-          - title: CCB West Issue
-            url: /ccbwest-cell/
-            description: "CCB West Issue Feed Config"
-      - title: "East Config"
-        children:
-          - title: CCB East Main
-            url: /ccbeast-main/
-            description: "CCB East Main Feed Config"
-          - title: CCB East CX
-            url: /ccbeast-cx/
-            description: "CCB East CX Feed Config"
-          - title: CCB East Issue
-            url: /ccbeast-cell/
-            description: "CCB East Issue Feed Config"
-          - title: CCC East Main
-            url: /ccceast-main/
-            description: "CCC East Main Feed Config"
-          - title: CCC East CX
-            url: /ccceast-cx/
-            description: "CCC East CX Feed Config"
-          - title: CCC East Issue
-            url: /ccceast-cell/
-            description: "CCC East Issue Feed Config"
+      - title: CCA West Main
+        url: /ccawest-main/
+        description: "CCA West Main Feed Config"
+      - title: CCA West CX
+        url: /ccawest-cx/
+        description: "CCA West CX Feed Config"
+      - title: CCA West Issue
+        url: /ccawest-cell/
+        description: "CCA West Issue Feed Config"
+      - title: CCB West Main
+        url: /ccbwest-main/
+        description: "CCB West Main Feed Config"
+      - title: CCB West CX
+        url: /ccbwest-cx/
+        description: "CCB West CX Feed Config"
+      - title: CCB West Issue
+        url: /ccbwest-cell/
+        description: "CCB West Issue Feed Config"
+      - title: CCB East Main
+        url: /ccbeast-main/
+        description: "CCB East Main Feed Config"
+      - title: CCB East CX
+        url: /ccbeast-cx/
+        description: "CCB East CX Feed Config"
+      - title: CCB East Issue
+        url: /ccbeast-cell/
+        description: "CCB East Issue Feed Config"
+      - title: CCC East Main
+        url: /ccceast-main/
+        description: "CCC East Main Feed Config"
+      - title: CCC East CX
+        url: /ccceast-cx/
+        description: "CCC East CX Feed Config"
+      - title: CCC East Issue
+        url: /ccceast-cell/
+        description: "CCC East Issue Feed Config"
 
 
 
