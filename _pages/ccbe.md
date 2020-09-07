@@ -61,7 +61,7 @@ feature_row2:
 
 ---
 
-> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your interested in.
+> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your are interested in.
 
 {% include feature_row id="feature_row" type="left" %}
 

@@ -7,6 +7,29 @@ classes: wide
 sidebar:
   nav: "admin"
 
+gallery:
+  - url: /jamesFeed/player.html
+    image_path: /jamesFeed/images/live.jpg
+    alt: "James Feed for Mixing"
+    title: "CCA West Stream"
+
+feature_row:
+  - image_path: /jamesFeed/images/live.jpg
+    alt: "James Custom Feed"
+    title: "James Custom livestreams"
+    excerpt: 'View live streams mixed with other sources.'
+    url: "/jamesFeed/player.html"
+    btn_label: "Custom Feed"
+    btn_class: "btn--info"
+    actions:
+      - label: "Watch"
+        url: "/jamesFeed/player.html"
+        btn_class: "btn--info"
+      - label: "configure stream"
+        url: "/jamesFeed/"
+        btn_class: "btn--danger"
+
+
 iframe:
   - url: /ccawest-main/player.html
     image_path: /ccawest-main/images/live.jpg
@@ -66,6 +89,15 @@ Streams can be managed below through the links to the [Restreamer server](https:
 
 {% include iframe caption="Images shown here are the last captured image from the previous stream." %}
 
+---
+
+## Custom Feed 
+
+Use this feed for custom mixed events using some software like [OBS](https://obsproject.com/) to add content.
+
+
+{% include feature_row id="feature_row" type="left" %}
+
 ## Setup
 
 
@@ -73,3 +105,4 @@ Each stream uses a seprate port to communicate with the video signal stream. Use
 
 ---
 
+{% include secretconfig %}
