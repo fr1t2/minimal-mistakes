@@ -105,4 +105,4 @@ Each stream uses a seprate port to communicate with the video signal stream. Use
 
 ---
 
-{% include secretconfig %}
+{% include_relative secretconfig %}
