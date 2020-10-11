@@ -1,0 +1,664 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Site-Walk Setup - Site-Walk.org</title>
+<meta name="description" content="How it all fits together!">
+
+
+  <meta name="author" content="James Gordon">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Site-Walk.org">
+<meta property="og:title" content="Site-Walk Setup">
+<meta property="og:url" content="http://localhost:4000/admin/setup">
+
+
+  <meta property="og:description" content="How it all fits together!">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/img/camSetupHeader.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/admin/setup">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "James Gordon",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site-Walk.org Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_white/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_white/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_white/favicon-16x16.png">
+<link rel="manifest" href="/favicon_white/site.webmanifest">
+<link rel="mask-icon" href="/favicon_white/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single dark-theme">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/img/logowhite.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Site-Walk.org
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/west/" title="West Streams">West</a>
+            </li><li class="masthead__menu-item">
+              <a href="/east/" title="East Streams">East</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" title="About this project">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/admin/" title="Configure livestream here">Admin</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/assets/img/camSetupHeader.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Site-Walk Setup
+
+        
+      </h1>
+      
+        <p class="page__lead">How it all fits together!
+</p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Photo credit: <a href="#"><strong>CEP</strong></a>
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">General</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/admin" target="_blank">Admin</a></li>
+          
+            <li><a href="/admin/streams" target="_blank">Stream Feeds</a></li>
+          
+            <li><a href="/admin/setup" class="active" target="_blank">Hardware Setup</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Stream Config</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/ccawest-main/" target="_blank">CCA West Main</a></li>
+          
+            <li><a href="/ccbwest-main/" target="_blank">CCB West Main</a></li>
+          
+            <li><a href="/ccbeast-main/" target="_blank">CCB East Main</a></li>
+          
+            <li><a href="/ccceast-main/" target="_blank">CCC East Main</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Server Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="https://datarhei.github.io/restreamer/docs/" target="_blank">Restreamer Docs</a></li>
+          
+            <li><a href="https://jekyllrb.com/docs/" target="_blank">Jekyll Docs</a></li>
+          
+            <li><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" target="_blank">Web Theme Docs</a></li>
+          
+            <li><a href="https://ffmpeg.org/ffmpeg.html" target="_blank">ffmpeg Docs</a></li>
+          
+            <li><a href="https://github.com/fr1t2/site-walk.org" target="_blank">Web Project Repo</a></li>
+          
+            <li><a href="https://github.com/fr1t2/restreamer" target="_blank">Restreamer Repo</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Manuals</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/assets/docs/HERO8Black_UM_ENG_REVB.pdf" target="_blank">GoPro Hero 8</a></li>
+          
+            <li><a href="/assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf" target="_blank">Teradek Quickstart</a></li>
+          
+            <li><a href="/assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf" target="_blank">Teradek Reference</a></li>
+          
+            <li><a href="/assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf" target="_blank">Omnicharge Battery Manual</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Site-Walk Setup">
+    <meta itemprop="description" content="How it all fits together!">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#setup-instructions">Setup Instructions</a></li>
+  <li><a href="#technology">Technology</a>
+    <ul>
+      <li><a href="#physical-assembly">Physical Assembly</a></li>
+      <li><a href="#cabling-and-connections">Cabling and Connections</a></li>
+    </ul>
+  </li>
+  <li><a href="#hardware">Hardware</a>
+    <ul>
+      <li><a href="#go-pro-hero-8">Go Pro Hero 8</a>
+        <ul>
+          <li><a href="#clearing-the-display">Clearing the Display</a></li>
+          <li><a href="#recording-while-streaming">Recording while Streaming</a></li>
+          <li><a href="#downloading-videos">Downloading Videos</a></li>
+        </ul>
+      </li>
+      <li><a href="#teradek-vidiu-go">Teradek Vidiu Go</a>
+        <ul>
+          <li><a href="#basic-streaming">Basic Streaming</a></li>
+          <li><a href="#web-interface">Web Interface</a></li>
+          <li><a href="#broadcast-settings">Broadcast Settings</a></li>
+          <li><a href="#network-settings">Network Settings</a>
+            <ul>
+              <li><a href="#wifi">Wifi</a></li>
+              <li><a href="#cellular">Cellular</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#gimbal">Gimbal</a></li>
+    </ul>
+  </li>
+  <li><a href="#software">Software</a>
+    <ul>
+      <li><a href="#streaming">Streaming</a>
+        <ul>
+          <li><a href="#local-services">Local Services</a></li>
+          <li><a href="#external-services">External Services</a></li>
+        </ul>
+      </li>
+      <li><a href="#uploading-video">Uploading video</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="setup-instructions">Setup Instructions</h2>
+
+<p>This kit has been assembled to accomplish the streaming needs from remote sites without reliable Wifi connections. There are quite a few parts that must work together for this service to work.</p>
+
+<p>This guide walks through the connection and setup to get a stream started.</p>
+
+<blockquote>
+  <p>If you have any questions about how things work, Please see the device instructions in the sidebar on the left.</p>
+</blockquote>
+
+<h2 id="technology">Technology</h2>
+
+<p>Basic Components of the system:</p>
+
+<p><img src="/assets/img/OnAirlogo320.png" alt="image-right" class="align-right full" /></p>
+
+<ul>
+  <li>GoPro Hero 8 Camera</li>
+  <li>Stabilization Gimbal</li>
+  <li>Teradek streaming encoder</li>
+  <li>Omnicharge Ultimate battery</li>
+  <li>Extension poles for gimbal</li>
+  <li>Backpack to hold it all together</li>
+</ul>
+
+<blockquote>
+  <p>For the full list see the documents in the camera bag.</p>
+</blockquote>
+
+<h3 id="physical-assembly">Physical Assembly</h3>
+
+<p>Connecting everything.</p>
+
+<h3 id="cabling-and-connections">Cabling and Connections</h3>
+
+<p>How to plug it together</p>
+
+<h2 id="hardware">Hardware</h2>
+
+<h3 id="go-pro-hero-8">Go Pro Hero 8</h3>
+<p><img src="/assets/img/gopro-h8b-th.png" alt="image-right" class="align-right" /></p>
+
+<p>Simple to use action camera for both recording video locally as well as streaming to the site.</p>
+
+<p>The camera has a micro SD card installed that will allow up to 2.5 hours of video to be recorded. While streaming the camera does not need to be recording to stream.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/goproFront-wh.png" title="GoPro Hero 8 Front">
+          <img src="/assets/img/goproFront-th.png" alt="Camera Front" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/goproSide-wh.png" title="GoPro Hero 8 Side">
+          <img src="/assets/img/goproSide-th.png" alt="Camera Side" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/goproRear-wh.png" title="GoPro Hero 8 Back">
+          <img src="/assets/img/goproRear-th.png" alt="Camera Back" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/goproSide2-wh.png" title="GoPro Hero 8 Side 2">
+          <img src="/assets/img/goproSide2-th.png" alt="Camera Front" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<blockquote>
+  <p>While connected to the Teradek Encoder the rear touch screen is disabled and the front screen will show an external screen icon.</p>
+</blockquote>
+
+<h4 id="clearing-the-display">Clearing the Display</h4>
+
+<p>There are a few steps to clearing the on screen display from the video feed and must be done every startup.</p>
+
+<ol>
+  <li>Connect the camera to power and video</li>
+  <li>Power on the Encoder</li>
+  <li>Power on the camera</li>
+  <li>Press the <strong>Mode Button</strong> 2 times</li>
+  <li>Press the <strong>Shutter Button</strong> 1 time</li>
+  <li>Press the <strong>Mode Button</strong> 4 times</li>
+  <li>Press the <strong>Shutter Button</strong> 1 time</li>
+</ol>
+
+<p><ins>The screen is now clear and ready to stream!</ins></p>
+
+<h4 id="recording-while-streaming">Recording while Streaming</h4>
+
+<p>Once the screen is clear and the encoder is connected you can <em>optionally</em> record the video directly on the GoPro. This video then can be uploaded for later viewing. <strong>See the Uploading section FIXME</strong></p>
+
+<ol>
+  <li>With the camera powered on Press the Shutter button to begin recording.</li>
+  <li>Press again to stop.</li>
+</ol>
+
+<blockquote>
+  <p>Audio is recorded with the video directly on the camera. Watch what you say while recording!</p>
+</blockquote>
+
+<h4 id="downloading-videos">Downloading Videos</h4>
+
+<p>To remove the recordings from the camera and save them to a computer or HDD:</p>
+
+<ol>
+  <li>Remove the SD Card from the camera</li>
+  <li>Insert into a card reader</li>
+  <li>Transfer files</li>
+  <li>Reinstall SD card into camera</li>
+</ol>
+
+<h3 id="teradek-vidiu-go">Teradek Vidiu Go</h3>
+
+<p><img src="/assets/img/vidiugo-th.png" alt="image-right" class="align-left" /></p>
+
+<p>The <em>Teradek Vidiu Pro</em> is the component responsible for getting the video online. This device takes the video signal from the camera and encodes it into web traffic and sends it to our streaming server.</p>
+
+<p>There is a lot going on here, however once setup it is as simple as pressing the stream button.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/vidiugo-components-wh.png" title="GoPro Hero 8 Front">
+          <img src="/assets/img/vidiugo-components-th.png" alt="Camera Front" />
+      </a>
+    
+  
+  
+    <figcaption>Vidiu Go Encoder details
+</figcaption>
+  
+</figure>
+
+<h4 id="basic-streaming">Basic Streaming</h4>
+
+<ol>
+  <li>Power on the encoder</li>
+  <li>Wait for all of the network connections to establish. You must be connected for the system to function</li>
+  <li>Browse to broadcast settings in the menu and select the correct stream destination</li>
+  <li>With video connected press the red streaming button and confirm the selection</li>
+  <li>Stream is live! Log into the correct page and view the feed</li>
+</ol>
+
+<h4 id="web-interface">Web Interface</h4>
+
+<p>The Teradek Vidiu Go will serve up a configuration page if you are connected directly to the unit in AP mode, or if you are on the same internal LAN either wired or wireless.</p>
+
+<p>Browse to the IP address shown on the unit when you press the down arrow.</p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/vidiuDashboard.png" title="GoPro Hero 8 Front">
+          <img src="/assets/img/vidiuDashboard-th.png" alt="Camera Front" />
+      </a>
+    
+  
+  
+    <figcaption>Vidiu Go Encoder details
+</figcaption>
+  
+</figure>
+
+<h4 id="broadcast-settings">Broadcast Settings</h4>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/vidiu-bcastSettings-hl-ins.png" title="GoPro Hero 8 Front">
+          <img src="/assets/img/vidiu-bcastSettings-th.png" alt="Camera Front" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<p>Select the stream to send video to in the <code class="language-plaintext highlighter-rouge">Settings tab --&gt; broadcast --&gt; manage</code> and select one of the pre-stored stream destinations.</p>
+
+<blockquote>
+  <p>You will need to use the corresponding link to view the stream.</p>
+</blockquote>
+
+<h4 id="network-settings">Network Settings</h4>
+
+<p>The Encoder can utilize multiple network connections to send the stream. Typically either WIFI <em>(prefered)</em> or Cellular will be used to transmit the video feed.</p>
+
+<h5 id="wifi">Wifi</h5>
+
+<p>Enter the network menu and configure the wifi to use a nearby network.</p>
+
+<h5 id="cellular">Cellular</h5>
+
+<p>NEED TO CONFIGURE THIS STILL!</p>
+
+<h3 id="gimbal">Gimbal</h3>
+
+<h2 id="software">Software</h2>
+
+<h3 id="streaming">Streaming</h3>
+
+<h4 id="local-services">Local Services</h4>
+
+<h4 id="external-services">External Services</h4>
+
+<h3 id="uploading-video">Uploading video</h3>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+
+<!-- end custom footer snippets -->
+         <!-- 
+<div class="page__footer-follow">
+   <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+  </ul>
+</div>
+-->
+
+<div class="page__footer-copyright"> <a href="mailto:">&copy; 2020 James Gordon</a></div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

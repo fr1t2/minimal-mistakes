@@ -16,48 +16,31 @@ feature_row:
     alt: "CCA West Expansion livestreams"
     title: "CCA West Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse A West** construction project.'
-    url: "/ccaw/"
+    url: "/aw-main/"
     btn_label: "CCA West Events"
     btn_class: "btn--info"
     actions:
-      - label: "Overview"
-        url: "/ccaw/"
-        btn_class: "btn--info"
-      - label: "AW Main"
+      - label: "CCA West"
         url: "/aw-main/"
-        btn_class: "btn--warning "
-      - label: "AW CX"
-        url: "/aw-cx/"
-        btn_class: "btn--warning"
-      - label: "AW Issue"
-        url: "/aw-issue/"
-        btn_class: "btn--warning"
+        btn_class: "btn--info btn--large"
+
 
 feature_row1:
   - image_path: /assets/img/bricks.png
     alt: "CCB West Expansion livestreams"
     title: "CCB West Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse B West** construction project.'
-    url: "/ccbw/"
+    url: "/bw-main/"
     btn_label: "CCB West Events"
     btn_class: "btn--info"
     actions:
-      - label: "BW Main"
+      - label: "CCB West"
         url: "/bw-main/"
-        btn_class: "btn--warning "
-      - label: "BW CX"
-        url: "/bw-cx/"
-        btn_class: "btn--warning"
-      - label: "BW Issue"
-        url: "/aw-issue/"
-        btn_class: "btn--warning"
-      - label: "Overview"
-        url: "/ccbw/"
-        btn_class: "btn--info"
+        btn_class: "btn--info btn--large"
+
 
 ---
-
-> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your are interested in.
+CEP West livestream feeds will be found below. If there is no scheduled streaming event these feeds will not work. Please contact the PMT to schedule a streaming event.
 
 {% include feature_row id="feature_row" type="left" %}
 

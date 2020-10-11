@@ -16,48 +16,30 @@ feature_row:
     alt: "CCB East Expansion livestreams"
     title: "CCB East Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse B East** construction project.'
-    url: "/ccaw/"
+    url: "/be-main/"
     btn_label: "CCB East Events"
     btn_class: "btn--info"
     actions:
-      - label: "Overview"
-        url: "/ccbe/"
-        btn_class: "btn--info"
-      - label: "BE Main"
+      - label: "CCB East"
         url: "/be-main/"
-        btn_class: "btn--warning "
-      - label: "BE CX"
-        url: "/be-cx/"
-        btn_class: "btn--warning"
-      - label: "BE Issue"
-        url: "/be-issue/"
-        btn_class: "btn--warning"
+        btn_class: "btn--info btn--large"
+
 
 feature_row1:
   - image_path: /assets/img/cccHigh1200.png
     alt: "CCC East Expansion livestreams"
     title: "CCC East Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse C East** construction project.'
-    url: "/ccce/"
+    url: "/ce-main/"
     btn_label: "CCC East Events"
     btn_class: "btn--info"
     actions:
-      - label: "CE Main"
+      - label: "CCC East"
         url: "/ce-main/"
-        btn_class: "btn--warning "
-      - label: "CE CX"
-        url: "/ce-cx/"
-        btn_class: "btn--warning"
-      - label: "CE Issue"
-        url: "/ce-issue/"
-        btn_class: "btn--warning"
-      - label: "Overview"
-        url: "/ccce/"
-        btn_class: "btn--info"
+        btn_class: "btn--info btn--large"
 
 ---
 
-> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your are interested in.
 
 {% include feature_row id="feature_row" type="left" %}
 

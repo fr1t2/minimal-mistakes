@@ -1,5 +1,11 @@
 # main links
 main:
+  - title: "West"
+    description: "West Streams"
+    url: /west/
+  - title: "East"
+    description: "East Streams"
+    url: /east/
   - title: "About"
     description: "About this project"
     url: /about/
@@ -8,46 +14,36 @@ main:
     url: /admin/
 
 admin:
+  - title: General 
+    children:
+    - title: Admin
+      url: /admin
+      description: "Main Admin Page"
+    - title: Stream Feeds
+      url: /admin/streams
+      description: "Overview of all streams"
+    - title: Hardware Setup  
+      url: /admin/setup
+      description: "Equipment setup"
+#    - title: East 
+#      url: /east
+#      description: "East Streams Main Page"
+
   - title: "Stream Config"
     children:
       - title: CCA West Main
         url: /ccawest-main/
         description: "CCA West Main Feed Config"
-      - title: CCA West CX
-        url: /ccawest-cx/
-        description: "CCA West CX Feed Config"
-      - title: CCA West Issue
-        url: /ccawest-cell/
-        description: "CCA West Issue Feed Config"
       - title: CCB West Main
         url: /ccbwest-main/
         description: "CCB West Main Feed Config"
-      - title: CCB West CX
-        url: /ccbwest-cx/
-        description: "CCB West CX Feed Config"
-      - title: CCB West Issue
-        url: /ccbwest-cell/
-        description: "CCB West Issue Feed Config"
       - title: CCB East Main
         url: /ccbeast-main/
         description: "CCB East Main Feed Config"
-      - title: CCB East CX
-        url: /ccbeast-cx/
-        description: "CCB East CX Feed Config"
-      - title: CCB East Issue
-        url: /ccbeast-cell/
-        description: "CCB East Issue Feed Config"
       - title: CCC East Main
         url: /ccceast-main/
         description: "CCC East Main Feed Config"
-      - title: CCC East CX
-        url: /ccceast-cx/
-        description: "CCC East CX Feed Config"
-      - title: CCC East Issue
-        url: /ccceast-cell/
-        description: "CCC East Issue Feed Config"
-
-  - title: Documentation
+  - title: Server Docs
     children:
       - title: Restreamer Docs
         url: https://datarhei.github.io/restreamer/docs/
@@ -61,5 +57,19 @@ admin:
         url: https://github.com/fr1t2/site-walk.org
       - title: Restreamer Repo
         url: https://github.com/fr1t2/restreamer
+  - title: Manuals
+    children:
+      - title: "GoPro Hero 8"
+        url: /assets/docs/HERO8Black_UM_ENG_REVB.pdf
+        description: "Camera manual"
+      - title: "Teradek Quickstart"
+        url: /assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf
+        description: "Teradek manual"
+      - title: "Teradek Reference"
+        url: /assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf
+        description: "Teradek manual"      
+      - title: "Omnicharge Battery Manual"
+        url: /assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf
+        description: "Teradek manual"
 
 

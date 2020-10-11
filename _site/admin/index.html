@@ -20,7 +20,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Site-Walk.org">
 <meta property="og:title" content="Admin Configuration">
-<meta property="og:url" content="https://site-walk.org/admin/">
+<meta property="og:url" content="http://localhost:4000/admin/">
 
 
   <meta property="og:description" content="Live streaming site walks and site inspections for modern construction programs.">
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="https://site-walk.org/admin/">
+<link rel="canonical" href="http://localhost:4000/admin/">
 
 
 
@@ -51,7 +51,7 @@
     
       "@type": "Person",
       "name": "James Gordon",
-      "url": "https://site-walk.org/"
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -137,6 +137,10 @@
           <span class="site-subtitle"></span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/west/" title="West Streams">West</a>
+            </li><li class="masthead__menu-item">
+              <a href="/east/" title="East Streams">East</a>
+            </li><li class="masthead__menu-item">
               <a href="/about/" title="About this project">About</a>
             </li><li class="masthead__menu-item">
               <a href="/admin/" title="Configure livestream here">Admin</a>
@@ -180,35 +184,17 @@
     
       <li>
         
-          <span class="nav__sub-title">Stream Config</span>
+          <span class="nav__sub-title">General</span>
         
 
         
         <ul>
           
-            <li><a href="/ccawest-main/">CCA West Main</a></li>
+            <li><a href="/admin" target="_blank">Admin</a></li>
           
-            <li><a href="/ccawest-cx/">CCA West CX</a></li>
+            <li><a href="/admin/streams" target="_blank">Stream Feeds</a></li>
           
-            <li><a href="/ccawest-cell/">CCA West Issue</a></li>
-          
-            <li><a href="/ccbwest-main/">CCB West Main</a></li>
-          
-            <li><a href="/ccbwest-cx/">CCB West CX</a></li>
-          
-            <li><a href="/ccbwest-cell/">CCB West Issue</a></li>
-          
-            <li><a href="/ccbeast-main/">CCB East Main</a></li>
-          
-            <li><a href="/ccbeast-cx/">CCB East CX</a></li>
-          
-            <li><a href="/ccbeast-cell/">CCB East Issue</a></li>
-          
-            <li><a href="/ccceast-main/">CCC East Main</a></li>
-          
-            <li><a href="/ccceast-cx/">CCC East CX</a></li>
-          
-            <li><a href="/ccceast-cell/">CCC East Issue</a></li>
+            <li><a href="/admin/setup" target="_blank">Hardware Setup</a></li>
           
         </ul>
         
@@ -216,23 +202,63 @@
     
       <li>
         
-          <span class="nav__sub-title">Documentation</span>
+          <span class="nav__sub-title">Stream Config</span>
         
 
         
         <ul>
           
-            <li><a href="https://datarhei.github.io/restreamer/docs/">Restreamer Docs</a></li>
+            <li><a href="/ccawest-main/" target="_blank">CCA West Main</a></li>
           
-            <li><a href="https://jekyllrb.com/docs/">Jekyll Docs</a></li>
+            <li><a href="/ccbwest-main/" target="_blank">CCB West Main</a></li>
           
-            <li><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Web Theme Docs</a></li>
+            <li><a href="/ccbeast-main/" target="_blank">CCB East Main</a></li>
           
-            <li><a href="https://ffmpeg.org/ffmpeg.html">ffmpeg Docs</a></li>
+            <li><a href="/ccceast-main/" target="_blank">CCC East Main</a></li>
           
-            <li><a href="https://github.com/fr1t2/site-walk.org">Web Project Repo</a></li>
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Server Docs</span>
+        
+
+        
+        <ul>
           
-            <li><a href="https://github.com/fr1t2/restreamer">Restreamer Repo</a></li>
+            <li><a href="https://datarhei.github.io/restreamer/docs/" target="_blank">Restreamer Docs</a></li>
+          
+            <li><a href="https://jekyllrb.com/docs/" target="_blank">Jekyll Docs</a></li>
+          
+            <li><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" target="_blank">Web Theme Docs</a></li>
+          
+            <li><a href="https://ffmpeg.org/ffmpeg.html" target="_blank">ffmpeg Docs</a></li>
+          
+            <li><a href="https://github.com/fr1t2/site-walk.org" target="_blank">Web Project Repo</a></li>
+          
+            <li><a href="https://github.com/fr1t2/restreamer" target="_blank">Restreamer Repo</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Manuals</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/assets/docs/HERO8Black_UM_ENG_REVB.pdf" target="_blank">GoPro Hero 8</a></li>
+          
+            <li><a href="/assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf" target="_blank">Teradek Quickstart</a></li>
+          
+            <li><a href="/assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf" target="_blank">Teradek Reference</a></li>
+          
+            <li><a href="/assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf" target="_blank">Omnicharge Battery Manual</a></li>
           
         </ul>
         
@@ -269,66 +295,12 @@
         <p>Streams can be managed below through the links to the <a href="https://github.com/datarhei/restreamer">Restreamer server</a>. New streams cannot be created here, for that you must contact the <a href="mailto:james@site-walk.org">admin</a></p>
 
 <blockquote>
-  <p>You must ensure that the stream is started and is listening. <br />If you see the <strong>(Error: Your stream wasn’t accessible. …. Operation not permitted)</strong> the system is functioning. Send some stream there and it will work</p>
+  <p>If you see the <strong>(Error: Your stream wasn’t accessible. …. Operation not permitted)</strong> the system is functioning. Send some stream there and it will work</p>
 </blockquote>
 
-<figure class=" ">
-  
-    
-      <iframe src="/ccawest-main/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccawest-cx/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccawest-cell/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccbwest-main/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccbwest-cx/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccbwest-cell/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccbeast-main/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccbeast-cx/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccbeast-cell/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccceast-main/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccceast-cx/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-    
-      <iframe src="/ccceast-cell/player.html" name="restreamer-player" scrolling="no" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
-    
-  
-  
-    <figcaption>Images shown here are the last captured image from the previous stream.
-</figcaption>
-  
-</figure>
+<p>You must ensure that the stream is started and is listening in the stream config link.</p>
 
-<hr />
+<p>See the <a href="/admin/setup">setup guide</a> for more instruction.</p>
 
 <h2 id="custom-feed">Custom Feed</h2>
 
@@ -399,39 +371,11 @@
       <td>rtmp://128.199.9.133:11935/live/external.stream?token=j5GZw5Jh4tdhQDz4BZ7xH2xm3K</td>
     </tr>
     <tr>
-      <td style="text-align: left">AW-CX</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-cx/">/ccawest-cx/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-cx/player.html">/CX/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-cx/images/live.jpg">/CX/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11936/live/external.stream?token=ggxKuAXmf7Y58QC</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">AW-Issue</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-cell/">/ccawest-issue/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-cell/player.html">/Issue/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-cell/images/live.jpg">/Issue/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11937/live/external.stream?token=95UsWAw9yhPDYap</td>
-    </tr>
-    <tr>
       <td style="text-align: left">BW-Main</td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbwest-main/">/ccbwest-main/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbwest-main/player.html">/Main/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbwest-main/images/live.jpg">/Main/images/live.jpg</a></td>
       <td>rtmp://128.199.9.133:11938/live/external.stream?token=sAFB3T6NK9Gc2NN</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BW-CX</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-cx/">/ccbwest-cx/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-cx/player.html">/CX/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-cx/images/live.jpg">/CX/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11939/live/external.stream?token=779pvRk39tPZCdd</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BW-Issue</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-cell/">/ccbwest-issue/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-cell/player.html">/Issue/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-cell/images/live.jpg">/Issue/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11940/live/external.stream?token=DjGbApkn6FjeAr7</td>
     </tr>
     <tr>
       <td style="text-align: left">BE-Main</td>
@@ -441,39 +385,11 @@
       <td>rtmp://128.199.9.133:11941/live/external.stream?token=5g4jKC7MH7m9P5t</td>
     </tr>
     <tr>
-      <td style="text-align: left">BE-CX</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-cx/">/ccbeast-cx/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-cx/player.html">/CX/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-cx/images/live.jpg">/CX/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11942/live/external.stream?token=U9GjRRas6n2tfVe</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BE-Issue</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-cell/">/ccbeast-issue/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-cell/player.html">/Issue/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-cell/images/live.jpg">/Issue/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11943/live/external.stream?token=gbr3VZd48GestZ6</td>
-    </tr>
-    <tr>
       <td style="text-align: left">CE-Main</td>
       <td style="text-align: center"><a href="https://site-walk.org/ccceast-main/">/ccceast-main/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccceast-main/player.html">/Main/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccceast-main/images/live.jpg">/Main/images/live.jpg</a></td>
       <td>rtmp://128.199.9.133:11944/live/external.stream?token=35E9MNzq63D4DzS</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CE-CX</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccxeast-cx/">/ccxeast-cx/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccxeast-cx/player.html">/CX/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccxeast-cx/images/live.jpg">/CX/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11945/live/external.stream?token=W5vGgNweU4Zs5Nm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CE-Issue</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccceast-issue/">/ccceast-issue/</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccceast-issue/player.html">/Issue/player.html</a></td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccceast-issue/images/live.jpg">/Issue/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11946/live/external.stream?token=DjGbApkn6FjeAr7</td>
     </tr>
     <tr>
       <td style="text-align: left">Custom</td>
