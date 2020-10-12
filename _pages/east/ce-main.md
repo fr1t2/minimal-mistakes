@@ -11,4 +11,4 @@ classes: wide
 
 {% include video id="ccceast-main" provider="restreamer" %}
 
-> All streams are restricted. For access, request a password from the team [Email](mailto:james@site-walk.org) with reference to whom ever sent you here and which stream your are interested in.
+> If stream is not live the link won't work. Please contact the administrator or wait for the stream to begin and try again.
