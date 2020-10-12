@@ -7,7 +7,7 @@ author_profile: false
 
 classes: wide
 header:
-  overlay_image: /assets/img/logo1.png
+  overlay_image: /assets/img/logo2.png
   caption: "Photo credit: [**CEP**](#)"
 
 
@@ -20,9 +20,10 @@ feature_row:
     btn_label: "CCB East Events"
     btn_class: "btn--info"
     actions:
-      - label: "CCB East"
+      - label: "CCB East Livestream"
         url: "/east/be-main/"
         btn_class: "btn--info btn--large"
+
 
 
 feature_row1:
@@ -34,18 +35,18 @@ feature_row1:
     btn_label: "CCC East Events"
     btn_class: "btn--info"
     actions:
-      - label: "CCC East"
+      - label: "CCC East Livestream"
         url: "/east/ce-main/"
         btn_class: "btn--info btn--large"
 
 ---
 
-{% include feature_row id="feature_row" type="left" %}
+{% include feature_row id="feature_row" type="right" %}
 
-{% include feature_row id="feature_row1" type="right" %}
+{% include feature_row id="feature_row1" type="left" %}
 
 
-> The use of this system does not alleviate any parties responsibility for conformity and in no way replaces the contractual obligations set fourth elsewhere. These are provided for convenience only
+> The use of this system in no way replaces the contractual obligations set fourth elsewhere. <br>Livestream are provided for convenience only
 
 
 
