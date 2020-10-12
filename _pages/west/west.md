@@ -41,10 +41,6 @@ feature_row1:
 
 ---
 
-CEP West livestream feeds will be found below. 
-
-> Please contact the PMT to schedule a streaming event.
-
 {% include feature_row id="feature_row" type="left" %}
 
 {% include feature_row id="feature_row1" type="right" %}
