@@ -7,7 +7,7 @@ author_profile: false
 
 classes: wide
 header:
-  overlay_image: /assets/img/logo2.png
+  overlay_image: /assets/img/logo4.png
   caption: "Photo credit: [**CEP**](#)"
 
 
