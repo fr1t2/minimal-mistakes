@@ -2,10 +2,10 @@
 main:
   - title: "West"
     description: "West Streams"
-    url: /west/
+    url: /west/west
   - title: "East"
     description: "East Streams"
-    url: /east/
+    url: /east/east
   - title: "About"
     description: "About this project"
     url: /about/
