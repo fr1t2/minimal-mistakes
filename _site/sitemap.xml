@@ -10,13 +10,13 @@
 <loc>https://site-walk.org/west/aw-main/</loc>
 </url>
 <url>
-<loc>https://site-walk.org/be-main/</loc>
+<loc>https://site-walk.org/east/be-main/</loc>
 </url>
 <url>
 <loc>https://site-walk.org/west/bw-main/</loc>
 </url>
 <url>
-<loc>https://site-walk.org/ce-main/</loc>
+<loc>https://site-walk.org/east/ce-main/</loc>
 </url>
 <url>
 <loc>https://site-walk.org/east/</loc>
@@ -31,7 +31,7 @@
 <loc>https://site-walk.org/admin/streams</loc>
 </url>
 <url>
-<loc>https://site-walk.org/west/west</loc>
+<loc>https://site-walk.org/west/</loc>
 </url>
 <url>
 <loc>https://site-walk.org/assets/docs/HERO8Black_UM_ENG_REVB.pdf</loc>

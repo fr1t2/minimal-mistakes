@@ -1,6 +1,6 @@
 ---
 title: "CCC East Main"
-permalink: /ce-main/
+permalink: /east/ce-main/
 layout: splash
 entries_layout: grid
 classes: wide

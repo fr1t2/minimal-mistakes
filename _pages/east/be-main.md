@@ -1,6 +1,6 @@
 ---
 title: "CCB East Main"
-permalink: /be-main/
+permalink: /east/be-main/
 layout: splash
 entries_layout: grid
 classes: wide
