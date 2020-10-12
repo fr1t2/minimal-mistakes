@@ -16,12 +16,12 @@ feature_row:
     alt: "CCB East Expansion livestreams"
     title: "CCB East Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse B East** construction project.'
-    url: "/be-main/"
+    url: "/east/be-main/"
     btn_label: "CCB East Events"
     btn_class: "btn--info"
     actions:
       - label: "CCB East"
-        url: "/be-main/"
+        url: "/east/be-main/"
         btn_class: "btn--info btn--large"
 
 
@@ -30,16 +30,17 @@ feature_row1:
     alt: "CCC East Expansion livestreams"
     title: "CCC East Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse C East** construction project.'
-    url: "/ce-main/"
+    url: "/east/ce-main/"
     btn_label: "CCC East Events"
     btn_class: "btn--info"
     actions:
       - label: "CCC East"
-        url: "/ce-main/"
+        url: "/east/ce-main/"
         btn_class: "btn--info btn--large"
 
 ---
 
+CEP West livestream feeds will be found below. If there is no scheduled streaming event these feeds will not work. Please contact the PMT to schedule a streaming event.
 
 {% include feature_row id="feature_row" type="left" %}
 

@@ -16,12 +16,12 @@ feature_row:
     alt: "CCA West Expansion livestreams"
     title: "CCA West Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse A West** construction project.'
-    url: "/aw-main/"
+    url: "/west/aw-main/"
     btn_label: "CCA West Events"
     btn_class: "btn--info"
     actions:
       - label: "CCA West"
-        url: "/aw-main/"
+        url: "/west/aw-main/"
         btn_class: "btn--info btn--large"
 
 
@@ -30,12 +30,12 @@ feature_row1:
     alt: "CCB West Expansion livestreams"
     title: "CCB West Expansion livestreams"
     excerpt: 'View live recordings from site-walks for the **Concourse B West** construction project.'
-    url: "/bw-main/"
+    url: "/west/bw-main/"
     btn_label: "CCB West Events"
     btn_class: "btn--info"
     actions:
       - label: "CCB West"
-        url: "/bw-main/"
+        url: "/west/bw-main/"
         btn_class: "btn--info btn--large"
 
 
