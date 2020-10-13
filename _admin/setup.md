@@ -5,7 +5,7 @@ classes:
 
 author_profile: false
 entries_layout: grid
-permalink: /admin/setup
+permalink: /admin/setup/
 title: "Site-Walk Hardware Setup"
 toc: true
 toc_label: "Admin TOC"

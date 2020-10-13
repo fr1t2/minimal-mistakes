@@ -1,7 +1,7 @@
 ---
 title: Admin Streams
 layout: single
-permalink: /admin/streams
+permalink: /admin/streams/
 classes: wide
 
 sidebar:
