@@ -6,8 +6,11 @@ classes:
 author_profile: false
 entries_layout: grid
 permalink: /admin/setup
-title: "Site-Walk Setup"
+title: "Site-Walk Hardware Setup"
 toc: true
+toc_label: "Admin TOC"
+toc_icon: "cog"
+toc_sticky: true
 
 sidebar:
   nav: "admin"

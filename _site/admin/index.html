@@ -109,7 +109,7 @@
 
   </head>
 
-  <body class="layout--single wide">
+  <body class="layout--single">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -137,13 +137,11 @@
           <span class="site-subtitle"></span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/west/" title="West Streams">West</a>
+              <a href="https://site-walk.org/west/" title="West Streams">CEP West</a>
             </li><li class="masthead__menu-item">
-              <a href="/east/" title="East Streams">East</a>
+              <a href="https://site-walk.org/east/" title="East Streams">CEP East</a>
             </li><li class="masthead__menu-item">
-              <a href="/about/" title="About this project">About</a>
-            </li><li class="masthead__menu-item">
-              <a href="/admin/" title="Configure livestream here">Admin</a>
+              <a href="https://site-walk.org/admin/" title="Configure livestream here">Admin</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -190,11 +188,11 @@
         
         <ul>
           
-            <li><a href="/admin" target="_blank">Admin</a></li>
+            <li><a href="https://site-walk.org/admin" target="_blank">Admin</a></li>
           
-            <li><a href="/admin/streams" target="_blank">Stream Feeds</a></li>
+            <li><a href="https://site-walk.org/admin/streams" target="_blank">Stream Feeds</a></li>
           
-            <li><a href="/admin/setup" target="_blank">Hardware Setup</a></li>
+            <li><a href="https://site-walk.org/admin/setup" target="_blank">Hardware Setup</a></li>
           
         </ul>
         
@@ -208,13 +206,33 @@
         
         <ul>
           
-            <li><a href="/ccawest-main/" target="_blank">CCA West Main</a></li>
+            <li><a href="https://site-walk.org/west/ccawest-main/" target="_blank">CCA West Main</a></li>
           
-            <li><a href="/ccbwest-main/" target="_blank">CCB West Main</a></li>
+            <li><a href="https://site-walk.org/west/ccbwest-main/" target="_blank">CCB West Main</a></li>
           
-            <li><a href="/ccbeast-main/" target="_blank">CCB East Main</a></li>
+            <li><a href="https://site-walk.org/east/ccbeast-main/" target="_blank">CCB East Main</a></li>
           
-            <li><a href="/ccceast-main/" target="_blank">CCC East Main</a></li>
+            <li><a href="https://site-walk.org/east/ccceast-main/" target="_blank">CCC East Main</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Manuals</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="https://site-walk.org/assets/docs/HERO8Black_UM_ENG_REVB.pdf" target="_blank">GoPro Hero 8</a></li>
+          
+            <li><a href="https://site-walk.org/assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf" target="_blank">Teradek Quickstart</a></li>
+          
+            <li><a href="https://site-walk.org/assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf" target="_blank">Teradek Reference</a></li>
+          
+            <li><a href="https://site-walk.org/assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf" target="_blank">Omnicharge Battery Manual</a></li>
           
         </ul>
         
@@ -239,26 +257,6 @@
             <li><a href="https://github.com/fr1t2/site-walk.org" target="_blank">Web Project Repo</a></li>
           
             <li><a href="https://github.com/fr1t2/restreamer" target="_blank">Restreamer Repo</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Manuals</span>
-        
-
-        
-        <ul>
-          
-            <li><a href="/assets/docs/HERO8Black_UM_ENG_REVB.pdf" target="_blank">GoPro Hero 8</a></li>
-          
-            <li><a href="/assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf" target="_blank">Teradek Quickstart</a></li>
-          
-            <li><a href="/assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf" target="_blank">Teradek Reference</a></li>
-          
-            <li><a href="/assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf" target="_blank">Omnicharge Battery Manual</a></li>
           
         </ul>
         
@@ -292,7 +290,107 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Streams can be managed below through the links to the <a href="https://github.com/datarhei/restreamer">Restreamer server</a>. New streams cannot be created here, for that you must contact the <a href="mailto:james@site-walk.org">admin</a></p>
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-cog"></i> Admin TOC</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#streaming-setup">Streaming Setup</a>
+    <ul>
+      <li><a href="#stream-config-links">Stream Config Links</a></li>
+      <li><a href="#configuration">Configuration</a></li>
+    </ul>
+  </li>
+  <li><a href="#setup">Setup</a></li>
+  <li><a href="#custom-feed">Custom Feed</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p>Instructions for the setup and use of the video server.</p>
+
+<h2 id="streaming-setup">Streaming Setup</h2>
+
+<p>Manage streams through the links to the <a href="https://github.com/datarhei/restreamer">Restreamer server</a> instances running on this server shown in the table or in the <strong>Stream Config</strong> links on the left or in the table below.</p>
+
+<h3 id="stream-config-links">Stream Config Links</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Livestream</th>
+      <th style="text-align: center">Stream Config Link</th>
+      <th style="text-align: center">stream link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://site-walk.org/west/aw-main/">AW-Main</a></td>
+      <td style="text-align: center"><a href="https://site-walk.org/west/ccawest-main/">/ccawest-main/</a></td>
+      <td style="text-align: center">rtmp://128.199.9.133:11935/live/external.stream?token=j5GZw5Jh4tdhQDz4BZ7xH2xm3K</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://site-walk.org/west/bw-main">BW-Main</a></td>
+      <td style="text-align: center"><a href="https://site-walk.org/west/ccbwest-main/">/ccbwest-main/</a></td>
+      <td style="text-align: center">rtmp://128.199.9.133:11938/live/external.stream?token=sAFB3T6NK9Gc2NN</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://site-walk.org/east/be-main">BE-Main</a></td>
+      <td style="text-align: center"><a href="https://site-walk.org/east/ccbeast-main/">/ccbeast-main/</a></td>
+      <td style="text-align: center">rtmp://128.199.9.133:11941/live/external.stream?token=5g4jKC7MH7m9P5t</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://site-walk.org/east/ce-main">CE-Main</a></td>
+      <td style="text-align: center"><a href="https://site-walk.org/east/ccceast-main/">/ccceast-main/</a></td>
+      <td style="text-align: center">rtmp://128.199.9.133:11944/live/external.stream?token=35E9MNzq63D4DzS</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Custom</td>
+      <td style="text-align: center"><a href="https://site-walk.org/jamesFeed/">/jamesFeed/</a></td>
+      <td style="text-align: center">rtmp://128.199.9.133:11947/live/external.stream?token=xeeGKh7KS2mtR9H</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Each stream is a Docker container running the Restreamer server. The stream must be started in order to run. This is accomplished through the Restreamer admin interface.</p>
+
+<p><em>(Please reach out to the administrator for a password to configure these streams.)</em></p>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/img/RestreamerStopped.png" title="Stopped instance, Press that green START!">
+          <img src="/assets/img/RestreamerStopped-th.png" alt="Stopped instance" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/RestreamerInterface.png" title="Running instance">
+          <img src="/assets/img/RestreamerInterface-th.png" alt="Running instance" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/RestreamerRunning.png" title="Running stream with live video available">
+          <img src="/assets/img/RestreamerRunning-th.png" alt="Running stream with live video available" />
+      </a>
+    
+  
+    
+      <a href="/assets/img/RestreamerOptional.png" title="Optional External h.264 Stream (Youtube shown)">
+          <img src="/assets/img/RestreamerOptional-th.png" alt="Optional h.264 External Stream" />
+      </a>
+    
+  
+  
+    <figcaption>
+</figcaption>
+  
+</figure>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>New streams cannot be created here, for that you must contact the <a href="mailto:james@site-walk.org">admin</a></p>
 
 <blockquote>
   <p>If you see the <strong>(Error: Your stream wasn’t accessible. …. Operation not permitted)</strong> the system is functioning. Send some stream there and it will work</p>
@@ -302,53 +400,9 @@
 
 <p>See the <a href="/admin/setup">setup guide</a> for more instruction.</p>
 
-<h2 id="custom-feed">Custom Feed</h2>
-
-<p>Use this feed for custom mixed events using some software like <a href="https://obsproject.com/">OBS</a> to add content.</p>
-
-<div class="feature__wrapper">
-
-  
-    <div class="feature__item--left">
-      <div class="archive__item">
-        
-          <div class="archive__item-teaser">
-          <p><a href="/jamesFeed/player.html">
-            <img src="/jamesFeed/images/live.jpg" alt="James Custom Feed" />
-            
-          </a></p>
-          </div>
-        
-
-        <div class="archive__item-body">
-          
-            <h2 class="archive__item-title">James Custom livestreams</h2>
-          
-
-          
-            <div class="archive__item-excerpt">
-              <p>View live streams mixed with other sources.</p>
-
-            </div>
-          
-
-
-        
-          <a href="/jamesFeed/player.html" class="btn btn--info">Watch</a>
-        
-          <a href="/jamesFeed/" class="btn btn--danger">configure stream</a>
-        
-
-        </div>
-      </div>
-    </div>
-  
-
-</div>
-
 <h2 id="setup">Setup</h2>
 
-<p>Each stream uses a seprate port to communicate with the video signal stream. Use the configuration details from below to connect the camera system to the server to stream.</p>
+<p>Each stream uses a separate port to communicate with the video signal stream. Use the configuration details from below to connect the camera system to the server to stream.</p>
 
 <hr />
 
@@ -356,50 +410,43 @@
   <thead>
     <tr>
       <th style="text-align: left">Livestream</th>
-      <th style="text-align: center">Stream Config Link</th>
       <th style="text-align: center">Player Link</th>
       <th style="text-align: center">Live Image Link</th>
-      <th>stream link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: left">AW-Main</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccawest-main/">/ccawest-main/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccawest-main/player.html">/Main/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccawest-main/images/live.jpg">/Main/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11935/live/external.stream?token=j5GZw5Jh4tdhQDz4BZ7xH2xm3K</td>
     </tr>
     <tr>
       <td style="text-align: left">BW-Main</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbwest-main/">/ccbwest-main/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbwest-main/player.html">/Main/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbwest-main/images/live.jpg">/Main/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11938/live/external.stream?token=sAFB3T6NK9Gc2NN</td>
     </tr>
     <tr>
       <td style="text-align: left">BE-Main</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccbeast-main/">/ccbeast-main/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbeast-main/player.html">/Main/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccbeast-main/images/live.jpg">/Main/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11941/live/external.stream?token=5g4jKC7MH7m9P5t</td>
     </tr>
     <tr>
       <td style="text-align: left">CE-Main</td>
-      <td style="text-align: center"><a href="https://site-walk.org/ccceast-main/">/ccceast-main/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccceast-main/player.html">/Main/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/ccceast-main/images/live.jpg">/Main/images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11944/live/external.stream?token=35E9MNzq63D4DzS</td>
     </tr>
     <tr>
       <td style="text-align: left">Custom</td>
-      <td style="text-align: center"><a href="https://site-walk.org/jamesFeed/">/jamesFeed/</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/jamesFeed/player.html">/jamesFeed/player.html</a></td>
       <td style="text-align: center"><a href="https://site-walk.org/jamesFeed/images/live.jpg">https:///images/live.jpg</a></td>
-      <td>rtmp://128.199.9.133:11947/live/external.stream?token=xeeGKh7KS2mtR9H</td>
     </tr>
   </tbody>
 </table>
+
+<h2 id="custom-feed">Custom Feed</h2>
+
+<p>Use this feed for custom mixed events using some software like <a href="https://obsproject.com/">OBS</a> to add content.</p>
+
 
         
       </section>
@@ -448,7 +495,7 @@
 </div>
 -->
 
-<div class="page__footer-copyright"> <a href="mailto:">&copy; 2020 James Gordon</a></div>
+<div class="page__footer-copyright"> <a href='mailto:James@site-walk.org'>&copy; 2020 James Gordon</a></div>
 
       </footer>
     </div>

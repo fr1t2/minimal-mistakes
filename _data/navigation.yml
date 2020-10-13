@@ -1,29 +1,29 @@
 # main links
 main:
-  - title: "West"
+  - title: "CEP West"
     description: "West Streams"
-    url: /west/
-  - title: "East"
+    url: https://site-walk.org/west/
+  - title: "CEP East"
     description: "East Streams"
-    url: /east/
-  - title: "About"
-    description: "About this project"
-    url: /about/
+    url: https://site-walk.org/east/
+#  - title: "About"
+#    description: "About this project"
+#    url: /about/
   - title: "Admin"
     description: "Configure livestream here"
-    url: /admin/
+    url: https://site-walk.org/admin/
 
 admin:
   - title: General 
     children:
     - title: Admin
-      url: /admin
+      url: https://site-walk.org/admin
       description: "Main Admin Page"
     - title: Stream Feeds
-      url: /admin/streams
+      url: https://site-walk.org/admin/streams
       description: "Overview of all streams"
     - title: Hardware Setup  
-      url: /admin/setup
+      url: https://site-walk.org/admin/setup
       description: "Equipment setup"
 #    - title: East 
 #      url: /east
@@ -32,17 +32,31 @@ admin:
   - title: "Stream Config"
     children:
       - title: CCA West Main
-        url: /ccawest-main/
+        url: https://site-walk.org/west/ccawest-main/
         description: "CCA West Main Feed Config"
       - title: CCB West Main
-        url: /ccbwest-main/
+        url: https://site-walk.org/west/ccbwest-main/
         description: "CCB West Main Feed Config"
       - title: CCB East Main
-        url: /ccbeast-main/
+        url: https://site-walk.org/east/ccbeast-main/
         description: "CCB East Main Feed Config"
       - title: CCC East Main
-        url: /ccceast-main/
+        url: https://site-walk.org/east/ccceast-main/
         description: "CCC East Main Feed Config"
+  - title: Manuals
+    children:
+      - title: "GoPro Hero 8"
+        url: https://site-walk.org/assets/docs/HERO8Black_UM_ENG_REVB.pdf
+        description: "Camera manual"
+      - title: "Teradek Quickstart"
+        url: https://site-walk.org/assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf
+        description: "Teradek manual"
+      - title: "Teradek Reference"
+        url: https://site-walk.org/assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf
+        description: "Teradek manual"      
+      - title: "Omnicharge Battery Manual"
+        url: https://site-walk.org/assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf
+        description: "Teradek manual"
   - title: Server Docs
     children:
       - title: Restreamer Docs
@@ -57,19 +71,5 @@ admin:
         url: https://github.com/fr1t2/site-walk.org
       - title: Restreamer Repo
         url: https://github.com/fr1t2/restreamer
-  - title: Manuals
-    children:
-      - title: "GoPro Hero 8"
-        url: /assets/docs/HERO8Black_UM_ENG_REVB.pdf
-        description: "Camera manual"
-      - title: "Teradek Quickstart"
-        url: /assets/docs/Teradek_VidiU_Go_quick_start_guide_v2.1_0119_web.pdf
-        description: "Teradek manual"
-      - title: "Teradek Reference"
-        url: /assets/docs/Teradek_VidiU_Go_Reference_Guide_v1.2_0919.pdf
-        description: "Teradek manual"      
-      - title: "Omnicharge Battery Manual"
-        url: /assets/docs/Omnicharge-Omni-Ultimate-Manual.pdf
-        description: "Teradek manual"
 
 
