@@ -14,7 +14,7 @@ sidebar:
 
 
 
-gallery_restreamer:
+restreamer:
   - url: /assets/img/RestreamerStopped.png
     image_path: /assets/img/RestreamerStopped-th.png
     alt: "Stopped instance"
@@ -49,7 +49,7 @@ Each stream is a Docker container running the Restreamer server. The stream must
 
 *(Please reach out to the administrator for a password to configure these streams.)*
 
-{% include gallery id="gallery_restreamer" layout="half" caption="" %}
+{% include gallery id="restreamer" layout="half" caption="" %}
 
 
 
